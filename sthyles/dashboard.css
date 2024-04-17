@@ -1,0 +1,171 @@
+/* Styles for image */
+.img {
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 25%;
+}
+
+/* Styles for title */
+.title {
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+/* Styles for container */
+.container {
+    margin-top: 2%;
+}
+
+/* Styles for table */
+.table {
+    margin-top: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+/* Styles for main buttons */
+.buttonmain {
+    color: black;
+}
+
+/* Styles for rows */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Add horizontal line under each row */
+}
+
+/* Styles for columns */
+.col {
+    width: 25%;
+    text-align: left;
+    border-right: 1px solid #ddd; /* Add vertical line to the right of each column */
+}
+
+/* Styles for cards */
+.card {
+    border-radius: 10px;
+}
+
+/* Styles for last column */
+.col:last-child {
+    border-right: none; /* Remove vertical line from last column */
+}
+
+/* Styles for dashboard links */
+.dashboard-link {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.dashboard-link a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dashboard-link .arrow {
+    color: blue;
+    margin-left: 5px;
+}
+
+/* Styles for welcome user section */
+.welcome-user .user-icon {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.welcome-user {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 70%;
+}
+
+.welcome-user .title {
+    margin-left: -235%;
+    margin-top: -10%;
+}
+
+.welcome-user span {
+    color: black;
+}
+
+/* Styles for username */
+.username {
+    color: orange;
+}
+
+/* Styles for plus button */
+.dashboard-link .arrow {
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+
+.buttonplus {
+    margin-top: -7%;
+    margin-left: 85%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.buttonplus2 {
+    margin-top: 1%;
+    margin-left: 85%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* Styles for plus symbol */
+.plus {
+    background-color: #696969;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.horizontal {
+    width: 20px;
+    height: 3px;
+    top: 18.5px;
+    left: 10px;
+}
+
+.vertical {
+    width: 3px;
+    height: 20px;
+    top: 10px;
+    left: 18.5px;
+}
+
+/* Media queries for iPhone 12 */
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* Adjustments for iPhone 12 */
+    #login-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Media queries for iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Adjustments for iPad Pro */
+    body {
+        justify-content: center; /* Center the login container on the screen */
+    }
+
+    #login-container {
+        width: 45%;
+        padding: 40px;
+    }
+}

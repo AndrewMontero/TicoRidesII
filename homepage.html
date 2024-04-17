@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicoRides.com - Search for a Ride</title>
+    <link rel="stylesheet" href="sthyles/homepage.css">
+</head>
+<body>
+    <img src="images/logo.png" class="img" alt="Illustrative Purposes">
+    <h1>Welcome to TicoRides.com</h1>
+    <h2>Search for a Ride</h2>
+    <form id="searchForm" action="/search" method="get" onsubmit="return validateForm()">
+        <label for="start">From:</label>
+        <input type="text" id="start" name="start">
+        <label for="end">To:</label>
+        <input type="text" id="end" name="end">
+        <input type="submit" value="Find My Ride!">
+    </form>
+    <div class="box">
+        <span>From</span>
+        <input type="text" class="input-text" value="Input Text" onfocus="this.value=''">
+        <span>To</span>
+        <input type="text" class="input-text" value="Input Text" onfocus="this.value=''">
+        <button class="my-button">Find my Ride!</button>
+    </div>
+    <h2>Results for Rides that match your criteria:</h2>
+
+    <ul class="resultados">
+        <li><strong>User:</strong> Andrews | <strong>Start:</strong> Villa Maria | <strong>End:</strong> La Palmera</li>
+        <li><strong>User:</strong> barroyo | <strong>Start:</strong> Ciudad Quesada | <strong>End:</strong> Los Angeles</li>
+        <li><strong>User:</strong> yluna | <strong>Start:</strong> Ciudad Quesada | <strong>End:</strong> San Pedro</li>
+    </ul>
+
+    <a href="login.html" id="login-button">Login</a>
+
+    <script>
+        function validateForm() {
+            var start = document.getElementById("start").value;
+            var end = document.getElementById("end").value;
+
+            if (start.trim() === "" || end.trim() === "") {
+                alert("Please fill out all fields.");
+                return false; // Prevents form submission
+            }
+
+            return true; // Submits the form if all validations pass
+        }
+    </script>
+</body>
+</html>
