@@ -10,7 +10,7 @@
     <img src="images/logo.png" class="img" alt="Illustrative Purposes">
     <h1>Welcome to TicoRides.com</h1>
     <h2>Search for a Ride</h2>
-    <form id="searchForm" action="/search" method="get" onsubmit="return validateForm()">
+    <form id="searchForm" action="/search.php" method="get" onsubmit="return validateForm()">
         <label for="start">From:</label>
         <input type="text" id="start" name="start">
         <label for="end">To:</label>

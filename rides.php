@@ -19,7 +19,7 @@
                 <div class="card">
                     <div class="row align-items-start ml-1">
                         <div class="col">
-                            <a href="dashboard.html" class="buttonmain">Dashboard</a>
+                            <a href="dashboard.php?username_login=<?php echo urlencode($_GET['username_login']); ?>" class="buttonmain">Dashboard</a>
                         </div>
                         <div class="col">
                             <a href="rides.html" class="buttonmain">Rides</a>
@@ -31,7 +31,7 @@
                 </div>
                 <!-- Welcome message -->
                 <div class="d-flex justify-content-end mt-2">
-                    <p class="mr-3"> <span>Welcome: <span id="userLink"></span></span></p> <img src="images/user.png" alt="Imagen 2" class="img-fluid">
+                    <p class="mr-3"> <span>Welcome: <span id="userLink"><?php echo $_GET['username_login']; ?></span></span></p> <img src="images/user.png" alt="Imagen 2" class="img-fluid">
                 </div>
                 <!-- Dashboard links -->
                 <div class="dashboard-link">
@@ -58,7 +58,7 @@
                                 <input type="time" class="form-control" id="departure" value="06:45">
                                 <label for="arrival" class="form-label">Estimated Arrival Time</label>
                                 <input type="time" class="form-control" id="arrival" value="07:05">
-                                <a class="cancel" href="dashboard.html">Cancel</a>
+                                <a class="cancel" href="dashboard.php?username_login=<?php echo urlencode($_GET['username_login']); ?>">Cancel</a>
                             </div>
                             <div class="col">
                                 <label for="days" class="form-label">Select Days</label>

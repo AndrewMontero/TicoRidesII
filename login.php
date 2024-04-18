@@ -13,14 +13,14 @@
 
     <div id="login-container">
         <h1>Iniciar Sesión</h1>
-        <form id="form-login" action="dashboard.html" method="GET" onsubmit="return validateFormAndRedirect()">
+        <form id="form-login" action="dashboard.php" method="POST" onsubmit="return validateFormAndRedirect()">
             <label for="username_login">Username:</label>
             <input type="text" id="username_login" name="username_login" required><br>
             <label for="password_login">Contraseña:</label>
             <input type="password" id="password_login" name="password_login" required><br>
             <button type="submit">INICIAR SESIÓN</button> <!-- Changed button text -->
         </form>
-        <p>¿No tienes una cuenta? <a href="user_register.html">Registrarse aquí</a></p> <!-- Link to redirect to the second code -->
+        <p>¿No tienes una cuenta? <a href="user_register.php">Registrarse aquí</a></p> <!-- Link to redirect to the second code -->
     </div> 
 
     <script>
