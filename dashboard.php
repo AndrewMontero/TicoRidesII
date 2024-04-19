@@ -1,7 +1,3 @@
-<?php
-require ($_SERVER['DOCUMENT_ROOT'] . '/shared/header.php');
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,7 +7,7 @@ require ($_SERVER['DOCUMENT_ROOT'] . '/shared/header.php');
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="sthyles/dashboard.css">
     <title>Tico Rides</title>
-</head> 
+</head>
 
 <body>
     <!-- Container for the dashboard -->
@@ -114,7 +110,3 @@ require ($_SERVER['DOCUMENT_ROOT'] . '/shared/header.php');
 </body>
 
 </html>
-
-<?php
-require($_SERVER['DOCUMENT_ROOT'].'/shared/footer.php');
-?>
