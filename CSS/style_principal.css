@@ -1,0 +1,154 @@
+/* Styling for buttons */
+.btnprincipal {
+    margin-left: 75%;
+    /* Margin from left */
+    margin-top: 6%;
+    /* Margin from top */
+    padding: 10px 20px;
+    /* Padding */
+    border: 0.5px solid #4f77b4;
+    /* Border */
+    font-size: 19px;
+    /* Font size */
+    font-weight: 650;
+    /* Font weight */
+    border-radius: 0%;
+    /* Border radius */
+}
+
+/* Styling for image */
+.img {
+    margin-top: 5%;
+    /* Margin from top */
+    margin-left: 35%;
+    /* Margin from left */
+    width: 25%;
+    /* Width of the image */
+}
+
+/* Styling for title */
+.title {
+    margin-left: 3%;
+    /* Margin from left */
+    margin-top: 2%;
+    /* Margin from top */
+}
+
+/* Styling for container */
+.container {
+    margin-top: 2%;
+    /* Margin from top */
+}
+
+/* Styling for horizontal box */
+.horizontal-box {
+    display: flex;
+    /* Flexbox */
+    align-items: center;
+    /* Align items vertically */
+}
+
+/* Styling for input text */
+.input-text {
+    border: 1px solid #ccc;
+    /* Border */
+    padding: 5px;
+    /* Padding */
+    margin-left: 10px;
+    /* Margin from left */
+}
+
+/* Styling for box */
+.box {
+    margin-left: 2.9%;
+    /* Margin from left */
+    margin-right: 5%;
+    /* Margin from right */
+    border: 1.5px solid #000000;
+    /* Border */
+    padding: 10px;
+    /* Padding */
+}
+
+/* Styling for table */
+.table {
+    width: 80%;
+    /* Width */
+    margin: auto;
+    /* Margin */
+    border: 1px solid #ddd;
+    /* Border */
+}
+
+/* Styling for table rows */
+.row {
+    display: flex;
+    /* Flexbox */
+    justify-content: space-between;
+    /* Space between items */
+    padding: 10px 0;
+    /* Padding */
+    border-bottom: 1px solid #ddd;
+    /* Border bottom */
+}
+
+/* Styling for table columns */
+.col {
+    width: 25%;
+    /* Width */
+    text-align: left;
+    /* Text alignment */
+    border-right: 1px solid #ddd;
+    /* Border right */
+}
+
+/* Styling for last column */
+.col:last-child {
+    border-right: none;
+    /* Remove right border for last column */
+}
+
+/* Styling for buttons */
+.button {
+    color: #000000;
+    /* Button color */
+}
+
+/* iPhone 12 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .container {
+        width: auto;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .box {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+    }
+
+}
+
+/* iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+        width: auto;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .box {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+    }
+}

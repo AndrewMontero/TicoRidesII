@@ -1,0 +1,73 @@
+/* Styling for image */
+.img {
+    margin-top: 5%;
+    /* Margin from top */
+    margin-left: 15%;
+    /* Margin from left */
+    width: 60%;
+    /* Width of the image */
+}
+
+/* Styling for user paragraph */
+.pUser {
+    margin-left: 2%;
+    /* Margin from left */
+}
+
+/* Styling for form */
+form {
+    margin-left: 2%;
+    /* Margin from left */
+}
+
+/* Styling for labels */
+label {
+    margin-left: 2%;
+    /* Margin from left */
+}
+
+/* Styling for form controls */
+.form-control {
+    width: 80%;
+    /* Width of form control */
+    margin-left: 2%;
+    /* Margin from left */
+}
+
+/* Styling for buttons */
+.btn {
+    margin-top: 2%;
+    /* Margin from top */
+    margin-left: 30%;
+    /* Margin from left */
+}
+
+/* Styling for input */
+.input {
+    width: 2%;
+    /* Width */
+}
+
+/* Styling for background image */
+.background-image {
+    position: absolute;
+    /* Position absolute */
+    top: 0;
+    /* Top position */
+    left: 0;
+    /* Left position */
+    width: 100%;
+    /* Width */
+    height: 100%;
+    /* Height */
+    z-index: -1;
+    /* Z-index */
+    background-repeat: no-repeat;
+    /* No repeat */
+    background-size: cover;
+    /* Cover */
+    background-position: center;
+    /* Center position */
+    opacity: 1;
+    /* Opacity */
+}
