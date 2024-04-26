@@ -1,73 +1,83 @@
-/* Styling for image */
-.img {
-    margin-top: 5%;
-    /* Margin from top */
-    margin-left: 15%;
-    /* Margin from left */
-    width: 60%;
-    /* Width of the image */
-}
-
-/* Styling for user paragraph */
-.pUser {
-    margin-left: 2%;
-    /* Margin from left */
-}
-
-/* Styling for form */
-form {
-    margin-left: 2%;
-    /* Margin from left */
-}
-
-/* Styling for labels */
-label {
-    margin-left: 2%;
-    /* Margin from left */
-}
-
-/* Styling for form controls */
-.form-control {
-    width: 80%;
-    /* Width of form control */
-    margin-left: 2%;
-    /* Margin from left */
-}
-
-/* Styling for buttons */
-.btn {
-    margin-top: 2%;
-    /* Margin from top */
-    margin-left: 30%;
-    /* Margin from left */
-}
-
-/* Styling for input */
-.input {
-    width: 2%;
-    /* Width */
-}
-
-/* Styling for background image */
-.background-image {
-    position: absolute;
-    /* Position absolute */
-    top: 0;
-    /* Top position */
-    left: 0;
-    /* Left position */
-    width: 100%;
-    /* Width */
-    height: 100%;
-    /* Height */
-    z-index: -1;
-    /* Z-index */
-    background-repeat: no-repeat;
-    /* No repeat */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/mason-kiesewetter-fYGKyASSuk0-unsplash\ \(1\).jpg');
     background-size: cover;
-    /* Cover */
     background-position: center;
-    /* Center position */
-    opacity: 1;
-    /* Opacity */
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* Adjustments for iPhone 12 */
+    #login-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+}
+
+/* Media queries for iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+    body {
+        justify-content: center; /* Center the login container on the screen */
+    }
+
+    #login-container {
+        width: 45%;
+        padding: 40px;
+    }
+
 }

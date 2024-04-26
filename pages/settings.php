@@ -10,6 +10,10 @@ if (isset($_SESSION['username'])) {
     // Si no hay sesión establecida o el nombre de usuario no está disponible, mostrar un valor predeterminado
     $username = "no carga";
 }
+
+// Inicializar la variable $average_speed
+$average_speed = ""; // Puedes asignarle un valor predeterminado si lo deseas
+
 ?>
 
 <body>
@@ -68,6 +72,7 @@ if (isset($_SESSION['username'])) {
                             <button type="submit" class="btn btn-primary">Save</button>
                         </div>
                     </form>
+
                 </div>
             </div>
         </div>

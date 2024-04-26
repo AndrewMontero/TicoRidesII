@@ -5,8 +5,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/actions/login_action.php');
 ?>
 
 <body>
-    <!-- Contenedor de imagen de fondo -->
-    <img src="../images/mason-kiesewetter-fYGKyASSuk0-unsplash (1).jpg" class="background-image" alt="Fines Ilustrativos">
+   
     <!-- Contenedor para el contenido de la página -->
     <div class="container">
         <!-- Fila para el contenido, justificado a la izquierda -->
@@ -15,6 +14,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/actions/login_action.php');
             <div class="col-md-4">
                 <!-- Contenedor de tarjeta -->
                 <div class="card">
+                    
                     <!-- Cuerpo de la tarjeta -->
                     <div class="card-body">
                         <!-- Imagen del logo -->

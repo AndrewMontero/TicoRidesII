@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 /* Styles for image */
 .img {
     margin-top: 1%;
@@ -148,24 +150,40 @@
     left: 18.5px;
 }
 
-/* Media queries for iPhone 12 */
+/* Media queries para dispositivos específicos */
+
+/* Media queries para iPhone 12 */
 @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-min-device-pixel-ratio: 3) {
-    /* Adjustments for iPhone 12 */
-    #login-container {
-        width: 90%;
-        padding: 20px;
+    /* Ajustes para iPhone 12 */
+    .container {
+        margin-top: 5%; /* Ajusta el margen superior */
+    }
+
+    .welcome-user {
+        margin-left: 20%; /* Ajusta el margen izquierdo */
     }
 }
 
-/* Media queries for iPad Pro */
+/* Media queries para iPad Pro */
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-    /* Adjustments for iPad Pro */
-    body {
-        justify-content: center; /* Center the login container on the screen */
+    /* Ajustes para iPad Pro */
+    .container {
+        margin-top: 10%; /* Ajusta el margen superior */
     }
 
-    #login-container {
-        width: 45%;
-        padding: 40px;
+    .welcome-user {
+        margin-left: 30%; /* Ajusta el margen izquierdo */
+    }
+}
+
+/* Media queries para PC (escritorio) */
+@media only screen and (min-width: 768px) {
+    /* Ajustes para PC */
+    .container {
+        margin-top: 5%; /* Ajusta el margen superior */
+    }
+
+    .welcome-user {
+        margin-left: 40%; /* Ajusta el margen izquierdo */
     }
 }
